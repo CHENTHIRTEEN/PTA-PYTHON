@@ -1,0 +1,5 @@
+a, b = input().split(",")
+a = a.strip()
+b = b.strip()
+b = int(b)
+print(int(a * b))
